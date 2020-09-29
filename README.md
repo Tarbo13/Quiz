@@ -10,23 +10,19 @@ This is a multiple choice quiz that askes a user some basic questions about Java
 
 ### Screen Shots
 
-![Start Page](https://user-images.githubusercontent.com/68627417/94511878-6b995100-01cf-11eb-81e9-d69c7b3394d6.png)
+![Start Page](https://user-images.githubusercontent.com/68627417/94512397-cb442c00-01d0-11eb-8556-42b8e1e6115a.png)
 
 <br>
 
-![Questions List](https://user-images.githubusercontent.com/68627417/94511918-81a71180-01cf-11eb-8bd5-7880bd3411b3.png)
+![Questions List](https://user-images.githubusercontent.com/68627417/94512468-f595e980-01d0-11eb-9196-5415ac64eb9c.png)
 
 <br>
 
-![Answer Responce](https://user-images.githubusercontent.com/68627417/94511962-a8fdde80-01cf-11eb-92db-5fad43c666f2.png)
+![Final Initials Submit Page](https://user-images.githubusercontent.com/68627417/94512553-27a74b80-01d1-11eb-9287-5753db7f5e0d.png)
 
 <br>
 
-![Final Initials Submit Page](https://user-images.githubusercontent.com/68627417/94512016-cdf25180-01cf-11eb-9756-678c6df7ff82.png)
-
-<br>
-
-![Highscores Page](https://user-images.githubusercontent.com/68627417/94512110-1c9feb80-01d0-11eb-87ce-4ef727382897.png)
+![Highscores Page](https://user-images.githubusercontent.com/68627417/94512592-41489300-01d1-11eb-81a0-60cac5013a15.png)
 
 
 
