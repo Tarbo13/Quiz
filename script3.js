@@ -174,27 +174,27 @@ function allDone() {
     createSubmit.addEventListener("click", function(){
         var initials = createInput.value;
 
-        if (initials === null) {
-            console.log("No value entered");
-        } else {
-            var finalscore = {
-                initials: initials,
-                score: timeRemaining
-            }
-            console.log(finalscore);
-            var allScores = localStorage.getItem("allScores");
-            if (allScores === null) {
-                allScores = [];
-            } else {
-                allScores = JSON.parse(allScores);                
-            }
-            allScores.push(finalScore);
-            var newScore = JSON.stringify(allScores);
-            localStorage.setItem("allScores", newScore);
+        // if (initials === null) {
+        //     console.log("No value entered");
+        // } else {
+        //     var finalscore = {
+        //         initials: initials,
+        //         score: timeRemaining
+        //     }
+        //     console.log(finalscore);
+        //     var allScores = localStorage.getItem("allScores");
+        //     if (allScores === null) {
+        //         allScores = [];
+        //     } else {
+        //         allScores = JSON.parse(allScores);                
+        //     }
+        //     allScores.push(finalScore);
+        //     var newScore = JSON.stringify(allScores);
+        //     localStorage.setItem("allScores", newScore);
 
-            window.location.replace("HighScores.html");
+        //     window.location.replace("HighScores.html");
 
-        }
+        // }
     });
 
 }

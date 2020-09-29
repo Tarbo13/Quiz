@@ -24,6 +24,10 @@ This is a multiple choice quiz that askes a user some basic questions about Java
 
 ![Final Initials Submit Page](https://user-images.githubusercontent.com/68627417/94512016-cdf25180-01cf-11eb-9756-678c6df7ff82.png)
 
+<br>
+
+![Highscores Page](https://user-images.githubusercontent.com/68627417/94512110-1c9feb80-01d0-11eb-87ce-4ef727382897.png)
+
 
 
 
