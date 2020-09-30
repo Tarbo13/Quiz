@@ -1,4 +1,3 @@
-
 var highScore = document.querySelector("#highScore");
 var goBack = document.querySelector("#goBack");
 

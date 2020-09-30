@@ -120,7 +120,7 @@ questionIndex++;
 
 if (questionIndex >= questions.length) {
     allDone();
-    createDiv.textContent = "End of Quiz" + " " + "You got " + score + "/" + auestions.length + "Correct!";    
+    createDiv.textContent = "End of Quiz" + " " + "You got " + score + "/" + questions.length + "Correct!";    
 } else {
     render(questionIndex);
 }
@@ -141,6 +141,15 @@ function allDone() {
     createP.setAttribute("id", "createP");
 
     questionsDiv.appendChild(createP);
+
+    if (secondsLeft >= 0) {
+        var timeRemaining = secondsLeft;
+        var createP2 = document.createElement("p");
+        clearInterval(holdInterval);
+        createP.textContent = "Your score is:" + timeRemaining;
+
+        questionsDiv.appendChild(createP2);
+    }
 
     if (secondsLeft >= 0) {
         var timeRemaining = secondsLeft;
@@ -178,7 +187,6 @@ function allDone() {
     });
 
 }
-
 
 
 
